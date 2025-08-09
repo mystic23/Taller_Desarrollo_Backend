@@ -31,48 +31,91 @@ console.log(mejorParidad(4));
 
 console.log("Cuarto Punto: peorParidad");
 
+
+
 function peorParidad(num) {
-    switch (num) {
-        case 1:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-        case 2:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 3:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 4:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 5:                 
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 6:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 7:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 8:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 9:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-            
-        case 10:
-                if(num % 2 == 0) { return "Par";} 
-                else {return "Impar";}
-        default:
-            break;
+    function caso1(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso2(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso3(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso4(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso5(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso6(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso7(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso8(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso9(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    function caso10(n) {
+        function paridad() {
+            if(n % 2 == 0) { return "Par"; }
+            else { return "Impar"; }
+        }
+        return paridad();
+    }
+    switch(num) {
+        case 1: return caso1(num);
+        case 2: return caso2(num);
+        case 3: return caso3(num);
+        case 4: return caso4(num);
+        case 5: return caso5(num);
+        case 6: return caso6(num);
+        case 7: return caso7(num);
+        case 8: return caso8(num);
+        case 9: return caso9(num);
+        case 10: return caso10(num);
+        default: return undefined;
     }
 }
-console.log(peorParidad(4));
+console.log(peorParidad(7));
